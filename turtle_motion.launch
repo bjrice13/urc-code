@@ -1,0 +1,10 @@
+<launch>
+
+	<param name="/forward_speed" type="double" value="3.0" />
+	<param name="/backup_speed" type="double" value="1.0" />
+	<param name="/rotation" type="double" value="60.0" />
+
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+	<node name="turlte_motion" pkg="my_robot_tutorials" type="turtle_motion" />
+	
+</launch>
